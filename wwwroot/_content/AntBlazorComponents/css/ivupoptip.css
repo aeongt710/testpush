@@ -1,0 +1,59 @@
+﻿
+.ivu-poptip {
+    display: inline-block
+}
+
+.ivu-poptip-rel {
+    display: inline-block;
+    position: relative
+}
+
+.ivu-poptip-ele {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: middle;
+    font-size: 14px;
+    line-height: normal
+}
+
+.ivu-poptip-popper {
+    min-width: 150px;
+    display: block;
+    visibility: visible;
+    font-size: 14px;
+    line-height: 1.5;
+    position: absolute;
+    z-index: 1060
+}
+
+.ivu-poptip-inner {
+    width: 100%;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 6px rgba(0,0,0,.2);
+    box-shadow: 0 1px 6px rgba(0,0,0,.2);
+    white-space: nowrap
+}
+
+.ivu-poptip-body {
+    padding: 8px 16px
+}
+
+.ivu-poptip-body-content {
+    overflow: auto
+}
+
+.ivu-poptip-body-content-word-wrap {
+    white-space: pre-wrap;
+    text-align: justify
+}
+
+.ivu-poptip-body-content-inner {
+    color: #515a6e
+}
+
+.ivu-poptip:hover .ivu-poptip-popper-show {
+    display: block !important;
+}

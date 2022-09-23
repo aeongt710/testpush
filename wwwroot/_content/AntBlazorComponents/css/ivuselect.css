@@ -1,0 +1,29 @@
+﻿
+.ivu-select {
+    display: inline-block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: middle;
+    color: #515a6e;
+    font-size: 14px;
+    line-height: normal
+}
+
+.ivu-select-single .ivu-select-selection {
+    height: 32px;
+    position: relative
+}
+
+.input-group-error-append .ivu-select-selection, .input-group-error-prepend .ivu-select-selection {
+    background-color: inherit;
+    border: 1px solid transparent;
+}
+
+.ivu-select-item {
+    cursor: pointer;
+}
+
+    .ivu-select-item:hover {
+        background: #f3f3f3;
+    }

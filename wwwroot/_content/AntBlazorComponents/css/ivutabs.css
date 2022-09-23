@@ -1,0 +1,124 @@
+﻿
+.ivu-tabs-bar {
+    outline: 0;
+    border-bottom: 1px solid #dcdee2;
+    margin-bottom: 16px;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.ivu-tabs-nav-container {
+    margin-bottom: -1px;
+    line-height: 1.5;
+    font-size: 14px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    zoom: 1
+}
+
+    .ivu-tabs-nav-container:after, .ivu-tabs-nav-container:before {
+        content: "";
+        display: table
+    }
+
+    .ivu-tabs-nav-container:after {
+        clear: both;
+        visibility: hidden;
+        font-size: 0;
+        height: 0
+    }
+
+    .ivu-tabs-nav-container:focus {
+        outline: 0
+    }
+
+.ivu-tabs-nav-wrap {
+    overflow: hidden;
+    margin-bottom: -1px
+}
+
+.ivu-tabs-nav-scroll {
+    overflow: hidden;
+    white-space: nowrap
+}
+
+.ivu-tabs-nav {
+    padding-left: 0;
+    margin: 0;
+    float: left;
+    list-style: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    -webkit-transition: -webkit-transform .5s ease-in-out;
+    transition: -webkit-transform .5s ease-in-out;
+    transition: transform .5s ease-in-out;
+    transition: transform .5s ease-in-out,-webkit-transform .5s ease-in-out
+}
+
+    .ivu-tabs-nav .ivu-tabs-tab-disabled {
+        pointer-events: none;
+        cursor: default;
+        color: #ccc
+    }
+
+    .ivu-tabs-nav .ivu-tabs-tab {
+        display: inline-block;
+        height: 100%;
+        padding: 8px 16px;
+        margin-right: 16px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        cursor: pointer;
+        text-decoration: none;
+        position: relative;
+        -webkit-transition: color .3s ease-in-out;
+        transition: color .3s ease-in-out
+    }
+
+        .ivu-tabs-nav .ivu-tabs-tab:hover {
+            color: #1890ff
+        }
+
+        .ivu-tabs-nav .ivu-tabs-tab:active {
+            color: #1890ff
+        }
+
+        .ivu-tabs-nav .ivu-tabs-tab .ivu-icon {
+            width: 14px;
+            height: 14px;
+            margin-right: 8px
+        }
+
+    .ivu-tabs-nav .ivu-tabs-tab-active {
+        color: #1890ff !important;
+        border-color: #1890ff !important;
+    }
+
+.ivu-tabs-tab-icon-close {
+    margin-left: 6px;
+    margin-right: -6px;
+    font-size: 12px;
+}
+
+.ai-close-i {
+    width: 0px;
+    overflow: hidden;
+    -webkit-transform-origin: 100% 50%;
+    -ms-transform-origin: 100% 50%;
+    transform-origin: 100% 50%;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.ivu-tabs-tab:hover .ai-close-i {
+    width: 12px;
+}
+
+.ivu-tabs-tab-focused .ai-close-i {
+    width: 12px;
+}

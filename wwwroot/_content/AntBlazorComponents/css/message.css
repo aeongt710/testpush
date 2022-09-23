@@ -1,0 +1,45 @@
+﻿
+/*信息组件动画实现*/
+@keyframes ivumsg-movedown {
+    0% {
+        margin-top: 0px;
+    }
+
+    100% {
+        margin-top: 62.14px;
+    }
+}
+
+@-webkit-keyframes ivumsg-movedown /*Safari and Chrome*/
+{
+    0% {
+        margin-top: 0px;
+    }
+
+    100% {
+        margin-top: 62.14px;
+    }
+}
+
+@keyframes ivumsg-moveup {
+    0% {
+        margin-top: 62.14px;
+    }
+
+    100% {
+        margin-top: 0px;
+        top: -38.14px;
+    }
+}
+
+@-webkit-keyframes ivumsg-moveup /*Safari and Chrome*/
+{
+    0% {
+        margin-top: 62.14px;
+    }
+
+    100% {
+        margin-top: 0px;
+        top: -38.14px;
+    }
+}

@@ -1,0 +1,9 @@
+﻿
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 0.625rem;
+    user-select: none;
+}
